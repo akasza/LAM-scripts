@@ -35,13 +35,13 @@ Usage of the script:
 
 Known Issues:
 
-1. The script doesn't handle names with multiple parts (separated with spaces) i.e.: "John Wilkes Booth". You must treat these names with caution and manually edit them as follows (for example): 
+I. The script doesn't handle names with multiple parts (separated with spaces) i.e.: "John Wilkes Booth". You must treat these names with caution and manually edit them as follows (for example): 
 
 FirstName: John 
 LastName: Wilkes.Booth
 
 For the sAMAccountName the script will generate the name: john.wilkes.booth
 
-2. The script handles samba domain names with two components only (domain.tld)
+II. The script handles samba domain names with two components only (domain.tld)
 So if you provisioned the samba domain name like "ad.domain.com" the script won't work for you in this state.
 
