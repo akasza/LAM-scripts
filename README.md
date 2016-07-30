@@ -30,3 +30,15 @@ Usage of the script:
 	  -g | --group      if present: search for groups in file
 	  -e | --email 	    if present: search for emails in file
 	  -p | --pw-expire  if present: set default expiry for passwords
+
+=============================================================================
+
+Known Issues:
+
+The script doesn't handle names with multiple parts (separated with spaces) i.e.: "John Wilkes Booth". You must treat these names with caution and manually edit them as follows (for example): 
+
+FirstName: John
+LastName: Wilkes.Booth
+
+For the sAMAccountName the script will generate the name: john.wilkes.booth
+
