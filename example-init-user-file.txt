@@ -1,0 +1,3 @@
+John Doe john.doe@example.com group1
+Jane Doe group2
+Jack Doe jack.doe@another.com another attributes etc group3
