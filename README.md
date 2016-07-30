@@ -17,9 +17,9 @@ Usage of the script:
 	  -f | --file     /path/to/input/file
 
 	     The script assumes that:
-		    - each user is in new a line,
-        - the attributes are separated with spaces, and
-		    - structured as the following (see the example file provided):
+		- each user is in new a line,
+        	- the attributes are separated with spaces, and
+		- structured as the following (see the example file provided):
 		
 		    FirstName LastName Email (...) GroupName
 
